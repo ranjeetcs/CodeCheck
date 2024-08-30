@@ -15,6 +15,7 @@ public class OrderServiceApplication {
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
+		System.out.println("Test");
 	}
 	
 
