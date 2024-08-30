@@ -16,7 +16,6 @@ public class OrderServiceApplication {
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 		System.out.println("Test");
-		System.out.println("Test1");
 	}
 	
 
